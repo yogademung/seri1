@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+.content_login3a {
+	/*background-color: #FF6600;*/
+	background-color: #888b83;
+	background-color:#005f65;
+	height: 45px;
+	width: 110px;
+	font-family: "Courier New", Courier, monospace;
+	color: #FFF;
+	font-size: 18px;
+	font-weight: bold;
+	float: left;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 20px;
+	text-align: center;
+	padding-top: 10px;
+}
+.content_login3b {
+	background-color: #005f65;
+	float: right;
+	height: 19.5px;
+	width: 115px;
+	margin-top: 15px;
+	margin-right: 10px;
+	margin-bottom: 3px;
+	padding-left: 5px;
+	padding-top: 2px;
+	color: #FF8000;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 14px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.conten_login3c {
+	background-color: #005f65;
+	float: right;
+	height: 19.5px;
+	width: 115px;
+	margin-top: 3px;
+	margin-right: 10px;
+	margin-bottom: 3px;
+	padding-top: 2px;
+	padding-left: 5px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 14px;
+	color: #FF8000;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+

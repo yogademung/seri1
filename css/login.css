@@ -1,0 +1,188 @@
+@charset "utf-8";
+/* CSS Document */
+.login{
+	background-image: url(../images/bg_login.png);
+	width:492px;
+	height:361px;
+	margin-top:50px;
+}
+
+.login table{
+	padding-top:110px;
+}
+.login #usr,.login #pss{
+	width:180px;
+	height:25px;
+	border:0;
+	margin-bottom:10px;
+	font-family:Tahoma;
+	font-size:12pt;
+	border:0;
+	/*border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;*/
+	border-radius:5px;
+	box-shadow: 0px 0px 3px #888888;
+	padding:5px;
+	padding-right:30px;
+}
+
+.login #usr{
+	background: url(../images/user.png) no-repeat center left;
+	background-color:white;
+	background-position:195px;
+}
+
+.login #pss{
+	background: url(../images/pass.png) no-repeat center left;
+	background-color:white;
+	background-position:195px;
+}
+
+.login #captcha_code{
+	width:55px;
+	height:25px;
+	border:0;
+	background:white;
+	margin-bottom:10px;
+	font-family:Tahoma;
+	font-size:12pt;
+	border:0;
+	/*border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;*/
+	border-radius:5px;
+	box-shadow: 0px 0px 3px #888888;
+	padding:5px;
+}
+	
+.button_log{
+	background-image: url(../images/bt_login.png);
+	width:116px;
+	height:41px;
+	border:0;
+	margin-top:10px;
+}
+
+.button_log:hover{
+	background-image: url(../images/bt_login_hover.png);
+	width:116px;
+	height:41px;
+	border:0;
+}
+
+.error{
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-left:60px;
+	background-image: url(../img/alert.png);
+	width:80%;
+	height:20px;
+	border:0;
+	margin:0;
+	text-align:left;
+	vertical-align: text-top;
+	font-size:12pt;
+	font-weight:bold;
+	font-family:Arial;
+	position:absolute;
+	border-radius: 10px;
+}
+
+.gagal{
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-left:60px;
+	background-image: url(../img/alert.png);
+	background-position: 0px -63px;
+	width:432px;
+	height:20px;
+	border:0;
+	margin:0;
+	text-align:left;
+	vertical-align: text-top;
+	font-size:12pt;
+	font-weight:bold;
+	font-family:Arial;
+	position:absolute;
+	border-radius: 10px;
+}
+
+.sukses{
+	padding-top:15px;
+	padding-bottom:15px;
+	padding-left:60px;
+	background-image: url(../img/alert.png);
+	background-position: 0px -125px;
+	width:432px;
+	height:20px;
+	border:0;
+	margin:0;
+	text-align:left;
+	vertical-align: text-top;
+	font-size:12pt;
+	font-weight:bold;
+	font-family:Arial;
+	position:absolute;
+	border-radius: 10px;
+}
+
+.loading{
+	position:absolute;
+}
+
+#siimage{
+	width:100px;
+	height:35px;
+	margin-right: 5px;
+	box-shadow: 0px 0px 3px #888888;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#reload_btn{
+	width:24px;
+	height:24px;
+	padding-bottom:5px;
+	margin-right: 12px;
+}
+
+.myButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #fff6af;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fff6af;
+	box-shadow:inset 0px 1px 0px 0px #fff6af;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23));
+	background:-moz-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-webkit-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-o-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-ms-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23',GradientType=0);
+	background-color:#ffec64;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffab23), color-stop(1, #ffec64));
+	background:-moz-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-webkit-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-o-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-ms-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64',GradientType=0);
+	background-color:#ffab23;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
